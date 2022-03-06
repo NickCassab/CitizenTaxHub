@@ -17,6 +17,7 @@ function App() {
         >
           Hello World
         </a>
+        <p>Hello Nick</p>
       </header>
     </div>
   );
