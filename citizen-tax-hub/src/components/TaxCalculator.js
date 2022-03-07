@@ -1,13 +1,13 @@
-const Navbar = () => {
+const TaxCalculator = () => {
   return (
-    <nav className="navbar">
+    <nav className="taxcalculator">
       <div className="links">
         <h1 class="text-3xl font-bold">
-        NavBar
+        Tax Calculator
         </h1>
       </div>
     </nav>
   );
 }
  
-export default Navbar;
+export default TaxCalculator;

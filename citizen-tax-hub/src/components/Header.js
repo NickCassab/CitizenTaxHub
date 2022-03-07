@@ -1,13 +1,13 @@
-const Navbar = () => {
+const Header = () => {
   return (
-    <nav className="navbar">
+    <nav className="header">
       <div className="links">
         <h1 class="text-3xl font-bold">
-        NavBar
+        Citizen Tax Hub
         </h1>
       </div>
     </nav>
   );
 }
  
-export default Navbar;
+export default Header;

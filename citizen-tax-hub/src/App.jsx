@@ -1,26 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar.js';
+import Header from './components/Header';
+import TaxCalculator from './components/TaxCalculator';
+import TaxDistributor from './components/TaxDistributor';
+import TaxSliders from './components/TaxSliders';
+import NonProfitList from './components/NonProfitList';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-        <p>Hello Nick</p>
-      </header>
+      <TaxCalculator />
+      <TaxDistributor />
+      <TaxSliders />
+      <NonProfitList />
     </div>
   );
 }

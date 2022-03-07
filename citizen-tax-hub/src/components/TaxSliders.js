@@ -1,13 +1,13 @@
-const Navbar = () => {
+const TaxSliders = () => {
   return (
-    <nav className="navbar">
+    <nav className="taxsliders">
       <div className="links">
         <h1 class="text-3xl font-bold">
-        NavBar
+        Tax Sliders
         </h1>
       </div>
     </nav>
   );
 }
  
-export default Navbar;
+export default TaxSliders;
