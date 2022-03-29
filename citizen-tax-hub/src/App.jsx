@@ -9,7 +9,7 @@ import NonProfitList from './components/NonProfitList';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col h-screen bg-citizen-blue">
       <Header />
       <Navbar />
       <TaxCalculator />
